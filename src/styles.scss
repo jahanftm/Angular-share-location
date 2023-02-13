@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+@import "assets/styles/css-variables";
+
+.leaflet-popup-content-wrapper {
+  overflow: hidden;
+}
+
+.leaflet-popup-content {
+  margin: 0 !important;
+  overflow: hidden;
+}
+
+.popup {
+  header {
+    padding: 8px;
+    background-color: $green;
+  }
+
+  input {
+    padding: 8px;
+    font-size: 12px;
+    display: block;
+    margin: 12px;
+  }
+
+  button {
+    margin: 0 12px 12px;
+    background-color: $blue;
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+}

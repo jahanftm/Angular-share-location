@@ -1,0 +1,51 @@
+@import "src/assets/styles/css-variables";
+
+section {
+  border: 1px solid $blue;
+  border-radius: 12px;
+  overflow: hidden;
+
+  header {
+    color: white;
+    background-color: $blue;
+    font-size: 16px;
+    padding: 16px;
+  }
+}
+
+.body {
+  padding: 16px;
+}
+
+.input-wrapper {
+  display: grid;
+  align-items: center;
+  margin-bottom: 16px;
+  grid-template-columns: repeat(2, 1fr);
+
+  label {
+    margin-right: 16px;
+  }
+
+  input, select {
+    padding: 8px;
+    border-radius: 2px;
+    border: 1px solid $gray;
+  }
+}
+
+ui-map {
+  display: block;
+  width: 270px;
+  height: 270px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid gray;
+}
+
+.btns {
+  display: flex;
+  gap: 16px;
+  justify-content: flex-end;
+  margin-top: 16px;
+}
